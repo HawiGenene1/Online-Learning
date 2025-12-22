@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 @import "tailwindcss";
 
-:root {
+@theme {
   --font-lexend: "Lexend", sans-serif;
   --primary-clr: #c2f04d;
   --secondary-clr: #f4f4f5;
