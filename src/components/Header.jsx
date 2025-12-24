@@ -5,7 +5,7 @@ import Logo from "./Logo";
 import SearchInput from "./Searchinput";
 import { useState } from "react";
 import React from "react";
-
+ 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -22,7 +22,7 @@ export default function Header() {
           >
             {isOpen ? <RiCloseLine /> : <RiMenuLine />}
           </button>
-          {/* list */}
+          {/* list */} 
           <ul
             className={`absolute top-full right-0 mt-3 shadow-util bg-white rounded-lg min-w-[200px] w-full  transition ${
               isOpen ? "opacity-100 visible" : "opacity-0 invisible"
