@@ -33,11 +33,34 @@ export default function Hero(){
             <div>
               <div className="">
                 <img 
-                src="/images/hero-img.png" 
+                src="/image/hero-img.png" 
                 alt="hero image" 
                 width={440}
                 height={592} />
                  </div>  
+                 {/* Deconations*/}
+                 <img src="/image/book-icon.png" 
+                 alt="book icon"
+                 width={64}
+                 height={64}/>
+                 {/* Deconations*/}
+                 <img src="/image/star-icon.png" 
+                 alt="start icon"
+                 width={64}
+                 height={64}/>
+                 {/* Card*/}
+                 <div className="">
+                  <span>
+                    <img
+                    src="/image/hero-card-icon.png"
+                    alt="hero card icon"
+                    width={64}
+                    height={64}
+                    />
+                  </span>
+                  <p className=""><span>100k+ </span> students <br/>
+                  learn daily</p>
+                 </div>
             </div>
             </div>  
         </section>
