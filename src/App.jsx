@@ -3,6 +3,9 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import BrandBanner from "./components/BrandBanner";
 import CourseCategories from "./components/CourseCategories";
+import courses from "./components/Courses";
+
+
 
 export default function App(){
   return (
@@ -12,6 +15,7 @@ export default function App(){
       <Hero />
       <BrandBanner />
       <CourseCategories />
+      <courses/>
     </main>
        <Footer /> 
     </>

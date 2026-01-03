@@ -1,7 +1,7 @@
 import React from "react";
-import { brandBannerImgs } from "../data/data";
+import { motion } from "framer-motion";
 import Marquee from "react-fast-marquee";
-import { motion } from "motion/react";
+import { brandBannerImgs } from "../data/data";
 import * as variants from "../motion/animation";
 
 export default function BrandBanner() {

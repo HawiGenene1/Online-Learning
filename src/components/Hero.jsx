@@ -1,8 +1,8 @@
-import { RiStarFill } from "@remixicon/react";
-import Button from "./Button";
-import { motion } from "motion/react";
-import * as variants from "../motion/animation";
 import React from "react";
+import { RiStarFill } from "@remixicon/react";
+import { motion } from "framer-motion";
+import Button from "./Button";
+import * as variants from "../motion/animation";
 
 export default function Hero() {
   return (

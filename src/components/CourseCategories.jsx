@@ -1,6 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { categoriesItems } from "../data/data";
-import { motion } from "motion/react";
 import * as variants from "../motion/animation";
 
 export default function CourseCategories() {
