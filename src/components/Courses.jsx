@@ -98,7 +98,7 @@ export default function Courses() {
                         ({course.reviews})
                       </p>
                     </div>
-                    <p className="font-bold text-lg">${course.price}</p>
+                    <p className="font-bold text-lg">Birr {course.price}k</p>
                   </div>
                 </div>
               </div>
@@ -115,5 +115,4 @@ export default function Courses() {
       </motion.div>
     </section>
   );
-  return <div>Courses</div>;
 }
